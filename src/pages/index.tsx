@@ -1,12 +1,19 @@
-import axios from "axios";
-// you don't need anything but axios to import
+// NOTE : dont change This file!
+import Link from "next/link";
 
 export default function Home() {
-  // TODO: once you get data map through data and show them name
-  return <div>Simple Axios And Data Fetching</div>;
+  return (
+    <ul>
+      <li>
+        <Link href="/axios">
+          <a>Axios</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/Axios">
+          <a>Formik</a>
+        </Link>
+      </li>
+    </ul>
+  );
 }
-
-// TODO: fetch data with axios to use in app
-// RestApi: axios.get("/api/users") => [{name: "amir"}]
-// Resource: https://nextjs.org/docs/basic-features/data-fetching
-// Resource: https://github.com/axios/axios
