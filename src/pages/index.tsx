@@ -10,7 +10,7 @@ export default function Home() {
         </Link>
       </li>
       <li>
-        <Link href="/Axios">
+        <Link href="/formik">
           <a>Formik</a>
         </Link>
       </li>
