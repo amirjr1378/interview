@@ -1,11 +1,8 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from "next";
+import { IUser } from "../../types/user";
 
-type User = {
-  name: string;
-};
-
-const bax: User[] = [
+const bax: IUser[] = [
   {
     name: "Amir Soton Gang",
   },
@@ -20,6 +17,6 @@ const bax: User[] = [
   },
 ];
 
-export default (req: NextApiRequest, res: NextApiResponse<User[]>) => {
+export default (req: NextApiRequest, res: NextApiResponse<IUser[]>) => {
   res.status(200).json(bax);
 };

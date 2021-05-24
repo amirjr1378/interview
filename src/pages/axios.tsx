@@ -1,7 +1,12 @@
 import axios from "axios";
-// you don't need anything but axios to import
+import IUser from '../types/user';
+// you don't need anything else to import
 
-export default function Home() {
+interface Props  {
+  // TODO: add user type
+}
+
+export default function Home(props: Props) {
   // TODO: once you get data map through data and show them name
   return <div>Simple Axios And Data Fetching => Edit src/pages/axios.tsx</div>;
 }
