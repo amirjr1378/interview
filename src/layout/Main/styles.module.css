@@ -1,0 +1,12 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar {
+  margin-bottom: 20px !important;
+}

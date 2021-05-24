@@ -2,18 +2,5 @@
 import Link from "next/link";
 
 export default function Home() {
-  return (
-    <ul>
-      <li>
-        <Link href="/axios">
-          <a>Axios</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/formik">
-          <a>Formik</a>
-        </Link>
-      </li>
-    </ul>
-  );
+  return <h3>navigate to test pages and start. i wish you lock </h3>;
 }
