@@ -13,5 +13,6 @@ export default function AxiosTest(props: Props) {
 
 // TODO: fetch data with axios to use in app
 // RestApi: axios.get("/api/users") => [{name: "amir"}]
+// NOTE: data fetching should happen in server side
 // Resource: https://nextjs.org/docs/basic-features/data-fetching
 // Resource: https://github.com/axios/axios
