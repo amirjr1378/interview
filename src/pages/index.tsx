@@ -2,5 +2,5 @@
 import Link from "next/link";
 
 export default function Home() {
-  return <h3>navigate to test pages and start. i wish you lock </h3>;
+  return <h3>navigate to test pages and start. i wish you luck </h3>;
 }
