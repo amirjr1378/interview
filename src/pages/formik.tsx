@@ -8,7 +8,7 @@ interface IForm {
 }
 
 export default function FormikTest() {
-  // TODO: make form work with formik , pass handleSubmit for onSubmit of formik
+  // TODO: make form work with formik , pass handleSubmit to onSubmit of formik
   // BONUS: adding validation has extra points
   // Resource: https://formik.org/docs/tutorial
 
