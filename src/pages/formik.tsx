@@ -36,7 +36,7 @@ export default function FormikTest() {
           </Button>
           <Button
             onClick={() => {
-              // TODO: reset form with fork
+              // TODO: reset form with formik
             }}
           >
             reset
