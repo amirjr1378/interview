@@ -7,8 +7,6 @@ interface Props {
 }
 
 export default function AxiosTest(props: Props) {
-  console.log(props);
-
   // TODO: once you get data map through data and show them name
   return <div>Simple Axios And Data Fetching :: Edit src/pages/axios.tsx</div>;
 }
